@@ -1,4 +1,4 @@
-package src;
+package distribuidos.trabajo;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -8,9 +8,10 @@ import java.util.concurrent.Executors;
 
 public class Servidor {
     public static void main(String[] args) {
-        try(ServerSocket ss = new ServerSocket(8080)){
+        try (ServerSocket ss = new ServerSocket(8080)) {
+            System.out.println("Servidor lanzado");
             ExecutorService pool = Executors.newCachedThreadPool();
-            while(true){
+            while (true) {
                 Socket s = ss.accept();
                 pool.execute(new AtenderPeticion(s));
             }

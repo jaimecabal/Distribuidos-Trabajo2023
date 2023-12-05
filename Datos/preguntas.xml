@@ -1,0 +1,565 @@
+<preguntas>
+    <pregunta>
+        <enunciado>Imagina que participas en un maratón y en la línea de salida te caes de cabeza. ¿Qué haces?
+        </enunciado>
+        <respuesta>¡Es pronto para rendirse!
+            <naturaleza puntos="1">Osada</naturaleza>
+            <naturaleza puntos="2">Fuerte</naturaleza>
+        </respuesta>
+        <respuesta>Dejo de correr
+            <naturaleza puntos="2">Rara</naturaleza>
+        </respuesta>
+        <respuesta>¡Hay que repetir la salida!
+            <naturaleza puntos="2">Audaz</naturaleza>
+            <naturaleza puntos="1">Alocada</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué clase de película irías a ver al cine?</enunciado>
+        <respuesta>Una de acción
+            <naturaleza puntos="2">Agitada</naturaleza>
+            <naturaleza puntos="1">Grosera</naturaleza>
+        </respuesta>
+        <respuesta>Un drama
+            <naturaleza puntos="2">Fuerte</naturaleza>
+        </respuesta>
+        <respuesta>
+            <naturaleza puntos="2">Fuerte</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué clase de estudiante eres?</enunciado>
+        <respuesta>De los que estudian a diario
+            <naturaleza puntos="2">Fuerte</naturaleza>
+        </respuesta>
+        <respuesta>De los que estudian si se acuerdan
+            <naturaleza puntos="2">Rara</naturaleza>
+            <naturaleza puntos="1">Activa</naturaleza>
+        </respuesta>
+        <respuesta>De los que estudian lo justo
+            <naturaleza puntos="1">Mansa</naturaleza>
+        </respuesta>
+        <respuesta>Voy a necesitar ayuda...
+            <naturaleza puntos="2">Huraña</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué haces cuando tienes una tarea complicada por delante?</enunciado>
+        <respuesta>La hago sin rechistar
+            <naturaleza puntos="1">Osada</naturaleza>
+            <naturaleza puntos="2">Fuerte</naturaleza>
+        </respuesta>
+        <respuesta>Pido ayuda
+            <naturaleza puntos="1">Docil</naturaleza>
+        </respuesta>
+        <respuesta>Que la haga otro
+            <naturaleza puntos="2">Audaz</naturaleza>
+            <naturaleza puntos="1">Grosera</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Te disculpas siempre de todo corazón?</enunciado>
+        <respuesta>Por supuesto
+            <naturaleza puntos="1">Audaz</naturaleza>
+            <naturaleza puntos="1">Docil</naturaleza>
+        </respuesta>
+        <respuesta>Hombre nunca es facil
+            <naturaleza puntos="1">Huraña</naturaleza>
+            <naturaleza puntos="1">Miedosa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Estudias con regularidad?</enunciado>
+        <respuesta>Si
+            <naturaleza puntos="2">Docil</naturaleza>
+        </respuesta>
+        <respuesta>Bueno...
+            <naturaleza puntos="2">Ingenua</naturaleza>
+            <naturaleza puntos="1">Alocada</naturaleza>
+        </respuesta>
+        <respuesta>¡Lo mio es el deporte!
+            <naturaleza puntos="2">Agitada</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Se rumorea que hay un fantasma en los baños de la uni. ¿Qué haces?</enunciado>
+        <respuesta>Mejor no ir al baño
+            <naturaleza puntos="2">Docil</naturaleza>
+            <naturaleza puntos="1">Miedosa</naturaleza>
+        </respuesta>
+        <respuesta>
+            Voy a ver que pasa
+            <naturaleza puntos="1">Audaz</naturaleza>
+            <naturaleza puntos="2">Alegre</naturaleza>
+            <naturaleza puntos="1">Placida</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Imagina que todos habéis tomado postre y todavía queda una porción. ¿Qué haces?</enunciado>
+        <respuesta>A ver si no se dan cuenta...
+            <naturaleza puntos="2">Audaz</naturaleza>
+            <naturaleza puntos="1">Miedosa</naturaleza>
+        </respuesta>
+        <respuesta>Lo echamos a suertes
+            <naturaleza puntos="2">Docil</naturaleza>
+            <naturaleza puntos="1">Alocada</naturaleza>
+        </respuesta>
+        <respuesta>¡Tonto el ultimo!
+            <naturaleza puntos="2">Agitada</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cómo te levantas?</enunciado>
+        <respuesta>¡A toda pastilla!
+            <naturaleza puntos="2">Osada</naturaleza>
+            <naturaleza puntos="2">Agitada</naturaleza>
+        </respuesta>
+        <respuesta>Como una rosa
+            <naturaleza puntos="1">Mansa</naturaleza>
+        </respuesta>
+        <respuesta>Con sueño, pero bien
+            <naturaleza puntos="1">Docil</naturaleza>
+            <naturaleza puntos="2">Miedosa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Imagina que todo el mundo se está riendo por algo que a ti te parece
+            bastante aburrido. ¿Qué haces?
+        </enunciado>
+        <respuesta>¿Qué voy a hacer?
+            <naturaleza puntos="2">Osada</naturaleza>
+            <naturaleza puntos="1">Audaz</naturaleza>
+        </respuesta>
+        <respuesta>Les sigo el rollo
+            <naturaleza puntos="1">Huraña</naturaleza>
+            <naturaleza puntos="2">Miedosa</naturaleza>
+        </respuesta>
+        <respuesta>Depende de la situación
+            <naturaleza puntos="1">Mansa</naturaleza>
+            <naturaleza puntos="1">Rara</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Alguien te gusta un montón y se lo quieres decir. ¿Qué haces?</enunciado>
+        <respuesta>Lo muestro haciéndole más caso
+            <naturaleza puntos="2">Alegre</naturaleza>
+            <naturaleza puntos="1">Mansa</naturaleza>
+        </respuesta>
+        <respuesta>Evidente, le tomo un poco el pelo
+            <naturaleza puntos="2">Huraña</naturaleza>
+            <naturaleza puntos="1">Ingenua</naturaleza>
+        </respuesta>
+        <respuesta>¡Lo grito a los cuatro vientos!
+            <naturaleza puntos="1">Audaz</naturaleza>
+            <naturaleza puntos="2">Osada</naturaleza>
+            <naturaleza puntos="1">Agitada</naturaleza>
+        </respuesta>
+        <respuesta>No se lo digo. ¡Que vergüenza!
+            <naturaleza puntos="1">Miedosa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Estás dando un paseo y de repente te llaman para hacerte una entrevista para la televisión. ¿Qué
+            haces?
+        </enunciado>
+        <respuesta>¡Huyo! ¡Qué vergüenza!
+            <naturaleza puntos="2">Miedosa</naturaleza>
+        </respuesta>
+        <respuesta>Respondo a las preguntas
+            <naturaleza puntos="2">Osada</naturaleza>
+            <naturaleza puntos="2">Grosera</naturaleza>
+        </respuesta>
+        <respuesta>¡Yuju! ¡Estoy en la tele!
+            <naturaleza puntos="1">Audaz</naturaleza>
+            <naturaleza puntos="2">Ingenua</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Te gustan las fiestas con marcha?</enunciado>
+        <respuesta>¡Claro!
+            <naturaleza puntos="2">Alegre</naturaleza>
+            <naturaleza puntos="1">Huraña</naturaleza>
+        </respuesta>
+        <respuesta>Paso...
+            <naturaleza puntos="1">Mansa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Le están cantando cumpleaños feliz a alguien de la mesa de al lado. ¿Qué haces?</enunciado>
+        <respuesta>Me quedo y lo veo
+            <naturaleza puntos="1">Serena</naturaleza>
+        </respuesta>
+        <respuesta>Me uno a la canción
+            <naturaleza puntos="2">Alegre</naturaleza>
+            <naturaleza puntos="2">Ingenua</naturaleza>
+        </respuesta>
+        <respuesta>Me marcho
+            <naturaleza puntos="1">Huraña</naturaleza>
+            <naturaleza puntos="2">Grosera</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Estás en medio de una reunión en la que todo el mundo está en silencio cuando oyes como alguien se
+            tira un pedo. ¿Cómo reaccionas?
+        </enunciado>
+        <respuesta>¡Me parto de risa!
+            <naturaleza puntos="2">Alegre</naturaleza>
+            <naturaleza puntos="2">Ingenua</naturaleza>
+        </respuesta>
+        <respuesta>Hago oídos sordos...
+            <naturaleza puntos="1">Docil</naturaleza>
+            <naturaleza puntos="1">Agitada</naturaleza>
+        </respuesta>
+        <respuesta>¡¿Quien ha sido?!
+            <naturaleza puntos="2">Osada</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Te gusta el karaoke?</enunciado>
+        <respuesta>¡Claro!
+            <naturaleza puntos="2">Alegre</naturaleza>
+            <naturaleza puntos="2">Grosera</naturaleza>
+        </respuesta>
+        <respuesta>No
+            <naturaleza puntos="1">Activa</naturaleza>
+            <naturaleza puntos="1">Miedosa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Prefieres jugar fuera de casa en lugar de dentro?</enunciado>
+        <respuesta>Si
+            <naturaleza puntos="1">Audaz</naturaleza>
+            <naturaleza puntos="2">Alegre</naturaleza>
+            <naturaleza puntos="1">Placida</naturaleza>
+        </respuesta>
+        <respuesta>No
+            <naturaleza puntos="1">Mansa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Ves una cama que tiene pinta de ser muy cómoda. Lo primero que haces es...</enunciado>
+        <respuesta>¡Salto encima!
+            <naturaleza puntos="1">Activa</naturaleza>
+            <naturaleza puntos="1">Grosera</naturaleza>
+        </respuesta>
+        <respuesta>¡Me tiro!
+            <naturaleza puntos="2">Agitada</naturaleza>
+        </respuesta>
+        <respuesta>¡Me tumbo!
+            <naturaleza puntos="2">Huraña</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Estás en la montaña y llegas a un punto donde el camino se separa en dos. ¿Cuál escoges?</enunciado>
+        <respuesta>El estrecho
+            <naturaleza puntos="2">Agitada</naturaleza>
+            <naturaleza puntos="1">Ingenua</naturaleza>
+        </respuesta>
+        <respuesta>El ancho
+            <naturaleza puntos="2">Rara</naturaleza>
+            <naturaleza puntos="1">Miedosa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Imagina que descubres un cofre hecho polvo en medio de unas ruinas. ¿Qué haces?</enunciado>
+        <respuesta>Lo abro
+            <naturaleza puntos="2">Osada</naturaleza>
+            <naturaleza puntos="2">Activa</naturaleza>
+            <naturaleza puntos="2">Agitada</naturaleza>
+            <naturaleza puntos="1">Alocada</naturaleza>
+        </respuesta>
+        <respuesta>Pido ayuda
+            <naturaleza puntos="1">Miedosa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Un amigo tropieza y se cae estrepitosamente. ¿Qué haces?</enunciado>
+        <respuesta>Ayudo a mi amigo
+            <naturaleza puntos="2">Osada</naturaleza>
+            <naturaleza puntos="1">Huraña</naturaleza>
+        </respuesta>
+        <respuesta>¡Me rio! ¡Es divertidisimo!
+            <naturaleza puntos="2">Agitada</naturaleza>
+            <naturaleza puntos="2">Ingenua</naturaleza>
+            <naturaleza puntos="1"></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Estás soñando despierto... y un amigo te tira agua encima. ¿Qué haces?</enunciado>
+        <respuesta>¡Me enfado!
+            <naturaleza puntos="2">Activa</naturaleza>
+        </respuesta>
+        <respuesta>Me pongo triste
+            <naturaleza puntos="2">Huraña</naturaleza>
+        </respuesta>
+        <respuesta>¡Yuju!¡Pelea de agua!
+            <naturaleza puntos="2">Agitada</naturaleza>
+            <naturaleza puntos="2">Alegre</naturaleza>
+            <naturaleza puntos="2">Ingenua</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Se te ha pasado por la cabeza alguna vez que pueda haber un tesoro enterrado en tu jardín?
+        </enunciado>
+        <respuesta>¡Síii!
+            <naturaleza puntos="2">Ingenua</naturaleza>
+        </respuesta>
+        <respuesta>No
+            <naturaleza puntos="1">Mansa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Has contado alguna vez un chiste sin ninguna gracia?</enunciado>
+        <respuesta>Si
+            <naturaleza puntos="1">Agitada</naturaleza>
+            <naturaleza puntos="2">Ingenua</naturaleza>
+        </respuesta>
+        <respuesta>No
+            <naturaleza puntos="2">Serena</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>¡Eh! ¡Mira!... ¡Hay alguien detrás de ti! ¿Te has girado para mirar?</enunciado>
+        <respuesta>¡Anda que menudo susto!
+            <naturaleza puntos="2">Miedosa</naturaleza>
+        </respuesta>
+        <respuesta>Lo reconozco, me has engañado
+            <naturaleza puntos="2">Docil</naturaleza>
+        </respuesta>
+        <respuesta>Para nada, no me la has colado
+            <naturaleza puntos="2">Huraña</naturaleza>
+            <naturaleza puntos="2">Grosera</naturaleza>
+        </respuesta>
+        <respuesta>¿Eh? ¿Que?
+            <naturaleza puntos="2">Placida</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Tu amigo acaba de preparar una comida que sabe a rayos. Cuando te pregunta qué te parece, ¿qué le
+            dices?
+        </enunciado>
+        <respuesta>Finjo no tener hambre
+            <naturaleza puntos="1">Osada</naturaleza>
+            <naturaleza puntos="1">Mansa</naturaleza>
+        </respuesta>
+        <respuesta>Sonrio...
+            <naturaleza puntos="2">Serena</naturaleza>
+            <naturaleza puntos="1">Huraña</naturaleza>
+        </respuesta>
+        <respuesta>Mmm, ¡qué... rico!
+            <naturaleza puntos="1">Alocada</naturaleza>
+            <naturaleza puntos="1">Miedosa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado>Te encuentras con alguien que hacía mucho tiempo que no veías. ¿Qué haces?</enunciado>
+        <respuesta>Mantengo una conversación trivial
+            <naturaleza puntos="1">Serena</naturaleza>
+        </respuesta>
+        <respuesta>No digo nada
+            <naturaleza puntos="1">Rara</naturaleza>
+        </respuesta>
+        <respuesta>Busco una excusa para irme
+            <naturaleza puntos="2">Miedosa</naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+    <pregunta>
+        <enunciado></enunciado>
+        <respuesta>
+            <naturaleza puntos=""></naturaleza>
+        </respuesta>
+    </pregunta>
+</preguntas>
