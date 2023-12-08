@@ -12,7 +12,8 @@
                 </naturalezas>
             </respuesta>
             <respuesta>
-                <txtRespuesta>Dejo de correr
+                <txtRespuesta>
+                    Dejo de correr
                 </txtRespuesta>
                 <naturalezas>
                     <naturaleza puntos="2">Rara</naturaleza>
@@ -245,7 +246,8 @@
         </respuestas>
     </pregunta>
     <pregunta>
-        <enunciado>Imagina que todo el mundo se está riendo por algo que a ti te parece bastante aburrido. ¿Qué haces?
+        <enunciado>Imagina que todo el mundo se está riendo por algo que a ti te parece
+            bastante aburrido. ¿Qué haces?
         </enunciado>
         <respuestas>
             <respuesta>
@@ -312,7 +314,8 @@
         </respuestas>
     </pregunta>
     <pregunta>
-        <enunciado>Estás dando un paseo y de repente te llaman para hacerte una entrevista para la televisión. ¿Qué haces?
+        <enunciado>Estás dando un paseo y de repente te llaman para hacerte una entrevista para la televisión. ¿Qué
+            haces?
         </enunciado>
         <respuestas>
             <respuesta>
@@ -389,7 +392,8 @@
         </respuestas>
     </pregunta>
     <pregunta>
-        <enunciado>Estás en medio de una reunión en la que todo el mundo está en silencio cuando oyes como alguien se tira un pedo. ¿Cómo reaccionas?
+        <enunciado>Estás en medio de una reunión en la que todo el mundo está en silencio cuando oyes como alguien se
+            tira un pedo. ¿Cómo reaccionas?
         </enunciado>
         <respuestas>
             <respuesta>
@@ -654,7 +658,8 @@
         </respuestas>
     </pregunta>
     <pregunta>
-        <enunciado>Tu amigo acaba de preparar una comida que sabe a rayos. Cuando te pregunta qué te parece, ¿qué le dices?
+        <enunciado>Tu amigo acaba de preparar una comida que sabe a rayos. Cuando te pregunta qué te parece, ¿qué le
+            dices?
         </enunciado>
         <respuestas>
             <respuesta>
@@ -939,7 +944,8 @@
         </respuestas>
     </pregunta>
     <pregunta>
-        <enunciado>Estás a punto de comprar un juego que te gusta un montón cuando alguien se te adelanta y se lleva el último de la tienda. ¿Cómo te sienta?
+        <enunciado>Estás a punto de comprar un juego que te gusta un montón cuando alguien se te adelanta y se lleva el
+            último de la tienda. ¿Cómo te sienta?
         </enunciado>
         <respuestas>
             <respuesta>
@@ -967,7 +973,8 @@
         </respuestas>
     </pregunta>
     <pregunta>
-        <enunciado>Ayer compraste algo de ropa, hoy vuelves a la tienda y te lo encuentras a mitad de precio. ¿Cómo te sienta?
+        <enunciado>Ayer compraste algo de ropa, hoy vuelves a la tienda y te lo encuentras a mitad de precio. ¿Cómo te
+            sienta?
         </enunciado>
         <respuestas>
             <respuesta>
@@ -1225,7 +1232,8 @@
         </respuestas>
     </pregunta>
     <pregunta>
-        <enunciado>¿Se te ha olvidado en alguna ocasión que habías comprado algo y has vuelto a comprar exactamente lo mismo?
+        <enunciado>¿Se te ha olvidado en alguna ocasión que habías comprado algo y has vuelto a comprar exactamente lo
+            mismo?
         </enunciado>
         <respuestas>
             <respuesta>
@@ -1439,7 +1447,8 @@
         </respuestas>
     </pregunta>
     <pregunta>
-        <enunciado>Acabas de meter la pata hasta el fondo. Todos tus amigos se han dado cuenta y están enfadados contigo. ¿Qué haces?
+        <enunciado>Acabas de meter la pata hasta el fondo. Todos tus amigos se han dado cuenta y están enfadados
+            contigo. ¿Qué haces?
         </enunciado>
         <respuestas>
             <respuesta>

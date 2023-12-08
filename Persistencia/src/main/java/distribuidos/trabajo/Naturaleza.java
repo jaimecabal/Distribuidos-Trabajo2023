@@ -18,7 +18,7 @@ public class Naturaleza implements Serializable {
         this.puntos = puntos;
     }
 
-    @XmlElement
+    @XmlValue
     public String getNombreNaturaleza() {
         return nombreNaturaleza;
     }

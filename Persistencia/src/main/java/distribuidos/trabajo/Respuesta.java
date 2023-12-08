@@ -1,24 +1,15 @@
 package distribuidos.trabajo;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.*;
 import java.io.Serializable;
 import java.util.List;
 
 @XmlRootElement(name = "respuesta")
 public class Respuesta implements Serializable {
     private static final long serialVersionUID = 1L;
-    private String textRespuesta;
     private Naturalezas listaNaturalezas;
+    private String txtRespuesta;
 
-    public String getContenido() {
-        return textRespuesta;
-    }
-
-    public void setContenido(String contenido) {
-        this.textRespuesta = contenido;
-    }
 
     @XmlElement(name = "naturalezas")
     public Naturalezas getNaturalezas() {
@@ -29,14 +20,21 @@ public class Respuesta implements Serializable {
         this.listaNaturalezas = naturalezas;
     }
 
+    @XmlElement(name = "txtRespuesta")
+    public String getTxtRespuesta() {
+        return txtRespuesta;
+    }
+
+    public void setTxtRespuesta(String txtRespuesta) {
+        this.txtRespuesta = txtRespuesta;
+    }
 
     public String toString() {
-        String reply = "Texto: " + textRespuesta + "\r\n";
+        String reply = "Texto: " + txtRespuesta + "\r\nNaturaleza y sus puntos: \r\n";
         List<Naturaleza> naturalezaList = listaNaturalezas.getlNaturalezas();
         for (Naturaleza pn : naturalezaList) {
-            reply += "Naturaleza y sus puntos: " + pn.toString() + "\r\n";
+            reply += pn.toString() + " \r\n";
         }
-
         return reply;
     }
 }
