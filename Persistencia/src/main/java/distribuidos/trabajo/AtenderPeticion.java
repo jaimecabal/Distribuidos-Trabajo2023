@@ -18,10 +18,29 @@ public class AtenderPeticion implements Runnable {
     @Override
     public void run() {
         //Esto es solo para probar que el marshalleo funcion bien con los resultados
+        //pruebaNaturalezas();
+        pruebaPreguntas();
+    }
+    public void pruebaNaturalezas(){
         try {
             JAXBContext context = JAXBContext.newInstance(Naturalezas.class);
             Unmarshaller um = context.createUnmarshaller();
             FileReader file = new FileReader("Datos/naturalezas.xml");
+            Naturalezas naturalezas = (Naturalezas) um.unmarshal(file);
+            List<Naturaleza> listadoNaturalezas = naturalezas.getNaturalezas();
+            for (Naturaleza n : listadoNaturalezas) {
+                System.out.println(n.toString());
+            }
+
+        } catch (JAXBException | FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public void pruebaPreguntas(){
+        try {
+            JAXBContext context = JAXBContext.newInstance(Naturalezas.class);
+            Unmarshaller um = context.createUnmarshaller();
+            FileReader file = new FileReader("Datos/preguntas.xml");
             Naturalezas naturalezas = (Naturalezas) um.unmarshal(file);
             List<Naturaleza> listadoNaturalezas = naturalezas.getNaturalezas();
             for (Naturaleza n : listadoNaturalezas) {

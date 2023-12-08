@@ -8,15 +8,16 @@ import java.util.concurrent.Executors;
 
 public class Servidor {
     public static void main(String[] args) {
+        ExecutorService pool = Executors.newCachedThreadPool();
         try (ServerSocket ss = new ServerSocket(8080)) {
             System.out.println("Servidor lanzado");
-            ExecutorService pool = Executors.newCachedThreadPool();
             while (true) {
                 Socket s = ss.accept();
                 pool.execute(new AtenderPeticion(s));
             }
         } catch (IOException e) {
             e.printStackTrace();
+            pool.shutdown();
         }
     }
 }
