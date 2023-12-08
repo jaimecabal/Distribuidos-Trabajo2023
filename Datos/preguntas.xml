@@ -3,7 +3,8 @@
         <enunciado>Imagina que participas en un maratón y en la línea de salida te caes de cabeza. ¿Qué haces?
         </enunciado>
         <respuestas>
-            <respuesta>¡Es pronto para rendirse!
+            <respuesta>
+                ¡Es pronto para rendirse!
                 <naturalezas>
                     <naturaleza puntos="1">Osada</naturaleza>
                     <naturaleza puntos="2">Fuerte</naturaleza>

@@ -23,12 +23,12 @@ public class AtenderPeticion implements Runnable {
     }
     public void pruebaNaturalezas(){
         try {
-            JAXBContext context = JAXBContext.newInstance(Naturalezas.class);
+            JAXBContext context = JAXBContext.newInstance(ListaDescripcionNaturalezas.class);
             Unmarshaller um = context.createUnmarshaller();
             FileReader file = new FileReader("Datos/naturalezas.xml");
-            Naturalezas naturalezas = (Naturalezas) um.unmarshal(file);
-            List<Naturaleza> listadoNaturalezas = naturalezas.getNaturalezas();
-            for (Naturaleza n : listadoNaturalezas) {
+            ListaDescripcionNaturalezas listaDescripcionNaturalezas = (ListaDescripcionNaturalezas) um.unmarshal(file);
+            List<DescripcionNaturaleza> listadoDescripcionNaturalezas = listaDescripcionNaturalezas.getNaturalezas();
+            for (DescripcionNaturaleza n : listadoDescripcionNaturalezas) {
                 System.out.println(n.toString());
             }
 
@@ -38,15 +38,14 @@ public class AtenderPeticion implements Runnable {
     }
     public void pruebaPreguntas(){
         try {
-            JAXBContext context = JAXBContext.newInstance(Naturalezas.class);
+            JAXBContext context = JAXBContext.newInstance(Preguntas.class);
             Unmarshaller um = context.createUnmarshaller();
             FileReader file = new FileReader("Datos/preguntas.xml");
-            Naturalezas naturalezas = (Naturalezas) um.unmarshal(file);
-            List<Naturaleza> listadoNaturalezas = naturalezas.getNaturalezas();
-            for (Naturaleza n : listadoNaturalezas) {
-                System.out.println(n.toString());
+            Preguntas preguntas = (Preguntas) um.unmarshal(file);
+            List<Pregunta> lPreguntas = preguntas.getlPreguntas();
+            for (Pregunta p : lPreguntas) {
+                System.out.println(p.toString());
             }
-
         } catch (JAXBException | FileNotFoundException e) {
             throw new RuntimeException(e);
         }

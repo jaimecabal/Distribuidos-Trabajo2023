@@ -4,14 +4,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @XmlRootElement(name = "pregunta")
 public class Pregunta implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String enunciado;
-    private List<Respuesta> respuestas;
+    private Respuestas respuestas;
 
     @XmlElement(name = "enunciado")
     public String getEnunciado() {
@@ -22,13 +21,22 @@ public class Pregunta implements Serializable {
         this.enunciado = enunciado;
     }
 
-    @XmlElementWrapper(name = "respuestas")
     @XmlElement(name = "respuesta")
-    public List<Respuesta> getRespuestas() {
+    public Respuestas getRespuestas() {
         return respuestas;
     }
 
-    public void setRespuestas(List<Respuesta> respuestas) {
+    public void setRespuestas(Respuestas respuestas) {
         this.respuestas = respuestas;
+    }
+
+    public String toString() {
+        String reply = "Enunciado: " + getEnunciado() + "\r\n";
+        List<Respuesta> lRespuestas = respuestas.getlRespuestas();
+        for (Respuesta r : lRespuestas) {
+            reply += "Respuesta: \r\n" + r.toString() + "\r\n";
+        }
+
+        return reply;
     }
 }

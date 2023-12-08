@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<naturalezas>
+<descripcionNaturalezas>
     <naturaleza>
         <nombre>
             Fuerte
@@ -261,4 +261,4 @@
             <pokemon>Squirtle</pokemon>
         </opciones>
     </naturaleza>
-</naturalezas>
+</descripcionNaturalezas>
