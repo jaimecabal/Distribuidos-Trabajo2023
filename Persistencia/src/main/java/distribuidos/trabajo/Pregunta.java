@@ -21,7 +21,7 @@ public class Pregunta implements Serializable {
         this.enunciado = enunciado;
     }
 
-    @XmlElement(name = "respuesta")
+    @XmlElement(name = "respuestas")
     public Respuestas getRespuestas() {
         return respuestas;
     }

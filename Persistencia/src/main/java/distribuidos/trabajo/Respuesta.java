@@ -20,7 +20,7 @@ public class Respuesta implements Serializable {
         this.textRespuesta = contenido;
     }
 
-    @XmlElement(name = "respuestas")
+    @XmlElement(name = "naturalezas")
     public Naturalezas getNaturalezas() {
         return listaNaturalezas;
     }
