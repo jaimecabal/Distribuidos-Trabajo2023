@@ -27,9 +27,7 @@ public class AtenderPeticion implements Runnable {
     //https://stackoverflow.com/a/35278327
     public static <Pregunta> List<Pregunta> crearTest(List<Pregunta> list, int n, Random r) {
         int length = list.size();
-
         if (length < n) return null;
-
         //We don't need to shuffle the whole list
         for (int i = length - 1; i >= length - n; --i) {
             Collections.swap(list, i, r.nextInt(i + 1));
@@ -94,7 +92,6 @@ public class AtenderPeticion implements Runnable {
             i++;
         }
         String naturaleza = Collections.max(mapa.entrySet(), Map.Entry.comparingByValue()).getKey();
-        boolean encontrado = false;
         List<DescripcionNaturaleza> lDN = sacarNaturalezas();
         for (DescripcionNaturaleza dn : lDN) {
             if (dn.getNombre().equals(naturaleza)) {
