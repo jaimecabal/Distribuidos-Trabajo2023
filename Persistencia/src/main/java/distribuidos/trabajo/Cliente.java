@@ -13,7 +13,7 @@ public class Cliente {
         if (respuesta.equals("0")) {
             peticion += "PRUEBAS";
         } else if (respuesta.equals("1")) {
-            peticion += "GET";
+            peticion += "PUT";
         }
         //Conectamos al servidor
         try {
