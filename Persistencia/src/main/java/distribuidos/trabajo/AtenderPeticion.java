@@ -5,10 +5,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.*;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class AtenderPeticion implements Runnable {
     private Socket s;
@@ -45,8 +42,9 @@ public class AtenderPeticion implements Runnable {
         try {
             BufferedWriter bwr = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
             BufferedReader brr = new BufferedReader(new InputStreamReader(s.getInputStream()));
-            if (this.peticion.startsWith("TEST")) {
+            if (this.peticion.startsWith("PRUEBAS")) {
                 lanzarPruebas();
+                bwr.write("OK\r\n");
             } else if (this.peticion.startsWith("GET")) {
                 //Creamos las preguntas del test concreto
                 List<Pregunta> lPreguntas = crearTest(sacarPreguntas(), 10, new Random());
@@ -56,7 +54,7 @@ public class AtenderPeticion implements Runnable {
                     bwr.write(p.getEnunciado() + "\r\n");
                     bwr.flush();
                     List<Respuesta> rs = p.getRespuestas().getlRespuestas();
-                    int n = 1;
+                    int n = 0;
                     for (Respuesta r : rs) {
                         bwr.write(n + ") " + r.getTxtRespuesta() + "\r\n");
                         bwr.flush();
@@ -64,10 +62,12 @@ public class AtenderPeticion implements Runnable {
                     }
                     bwr.write("< ---------------------------------------- >\r\n");
                     bwr.flush();
+                    System.out.println("Esperando respuesta del cliente...");
                     //Leo la respuesta
-                    respuestas.add(brr.readLine());
+                    String respuestaCliente = brr.readLine();
+                    respuestas.add(respuestaCliente);
                 }
-                bwr.write(procesarResultados(respuestas,lPreguntas));
+                bwr.write(procesarResultados(respuestas, lPreguntas));
                 bwr.flush();
             }
         } catch (IOException e) {
@@ -77,7 +77,41 @@ public class AtenderPeticion implements Runnable {
 
     private String procesarResultados(List<String> respuestas, List<Pregunta> lPreguntas) {
         //Cogemos las respuestas, las comparamos con las preguntas y sumamos los puntos de cada pregunta
-        return "";
+        Map<String, Integer> mapa = mapaNaturalezas();
+        int i = 0;
+        for (Pregunta p : lPreguntas) {
+            List<Respuesta> lP = p.getRespuestas().getlRespuestas();
+            //Seleccionamos solo la respuesta que ha escogido el cliente
+            Respuesta r = lP.get(Integer.parseInt(respuestas.get(i)));
+            //Sacamos todas las naturalezas que suma la misma
+            List<Naturaleza> lN = r.getNaturalezas().getlNaturalezas();
+            for (Naturaleza n : lN) {
+                String nombreNatur = n.getNombreNaturaleza();
+                int puntos = n.getPuntos();
+                int puntosEnMapa = mapa.get(nombreNatur);
+                mapa.put(nombreNatur, puntosEnMapa + puntos);
+            }
+            i++;
+        }
+        String naturaleza = Collections.max(mapa.entrySet(), Map.Entry.comparingByValue()).getKey();
+        boolean encontrado = false;
+        List<DescripcionNaturaleza> lDN = sacarNaturalezas();
+        for (DescripcionNaturaleza dn : lDN) {
+            if (dn.getNombre().equals(naturaleza)) {
+                return "Tu naturaleza es: " + dn.getNombre() + "!\r\n" + dn.getDescripcion() + "\r\n Una persona asi solo podria ser... "+dn.getPosiblesPokemon().get(0) + " y " + dn.getPosiblesPokemon().get(1)+"\r\n";
+            }
+        }
+
+        return "Ha habido un error \r\n";
+    }
+
+    public Map<String, Integer> mapaNaturalezas() {
+        Map<String, Integer> mapa = new HashMap<String, Integer>();
+        List<DescripcionNaturaleza> lDescripciones = sacarNaturalezas();
+        for (DescripcionNaturaleza dn : lDescripciones) {
+            mapa.put(dn.getNombre(), 0);
+        }
+        return mapa;
     }
 
     public List<DescripcionNaturaleza> sacarNaturalezas() {
