@@ -41,6 +41,10 @@ public class Cliente {
                     } else {
                         System.out.println("Selecciona tu respuesta: ");
                         String respuestaTest = scan.nextLine();
+                        while(!respuestaTest.matches("[0-3]")){
+                            System.out.println("No puede ser esta respuesta, por favor escriba otra");
+                            respuestaTest = scan.nextLine();
+                        }
                         bwr.write(respuestaTest+"\r\n");
                         bwr.flush();
                     }
